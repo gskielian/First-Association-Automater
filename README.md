@@ -15,10 +15,16 @@ An automated generator with single word context.  Aimed to reduce ambiguity of f
 
 Basically the algorithm will look for the word that has the highest association to the previous word and starts with the target letter.
 
-Example output:
+Actual Example Output:
 
+```
 a - apple (seed word)
 e - eat
 i - intake
 o - output
 u - use
+```
+
+The above is an actual output sample, the program will simple automate the process.
+
+Some uncommon words would not churn out enough responses, if we somehow built a comprehensive associative thesaurus via irc it would make this really powerful.
